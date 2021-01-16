@@ -1,0 +1,25 @@
+{
+  "name": "eth-block-header-data",
+  "version": "1.0.0",
+  "description": "This app will pull data of the most recent Ethereum Block Header via Infura, Display the data, and parse the Data via JSON to the MongDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insideoutzombie/eth-block-header-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insideoutzombie/eth-block-header-data/issues"
+  },
+  "homepage": "https://github.com/insideoutzombie/eth-block-header-data#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.15",
+    "superagent": "^3.8.3"
+  }
+}
